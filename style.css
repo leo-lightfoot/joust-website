@@ -84,6 +84,13 @@ body {
     color: #ffe711 ;
   }
 
+  #eve {
+    font-family: edosz;
+    font-size: 120px;
+    color: #000 ;
+    font-weight: 500;
+  }
+
   .container-fluid {
       padding: 50px 50px;
       background-color: #f2f2ef;
@@ -233,7 +240,7 @@ body {
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       -o-border-radius: 50%;
-      background: #2c3e50;
+      background: #000;
       display: inline-block;
       color: #fff;
       line-height: 46px;
@@ -296,7 +303,12 @@ body {
    .sm-scr{
      display: none;
    }
-
+   #foot{
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
   /* slide animation on scroll */
   .slideanim {visibility:hidden;}
   .slide {
